@@ -1,0 +1,5 @@
+import { EmptyState } from "../components/States";
+
+export function DashboardPage() {
+  return <div className="dashboard"><section className="hero-card"><p className="eyebrow">READY FOR REVIEW</p><h2>Follow relationships, not isolated events.</h2><p>Use search to locate entities, then investigate shared infrastructure, movement of funds, merchant exposure, and bounded impact paths using the approved FinGuard API.</p></section><section className="capability-grid" aria-label="Available investigation capabilities"><article><h3>Entity search</h3><p>Locate customer, account, device, IP address, and merchant records.</p></article><article><h3>Infrastructure signals</h3><p>Review shared devices and shared IPv4 access points.</p></article><article><h3>Funds & exposure</h3><p>Trace bounded transfers, merchant exposure, and synthetic identity patterns.</p></article></section><EmptyState>Choose <strong>Search</strong> or <strong>Investigations</strong> to begin with live API data.</EmptyState></div>;
+}
