@@ -82,3 +82,12 @@ export interface SyntheticIdentityResponse {
   matchedCustomerCount: number;
   clusterMembers: Array<{ customerId: string; customerName: string; accountNumber: string; paymentAmount: number; paymentTimestamp: string }>;
 }
+
+export interface NeighborhoodEdge {
+  sourceType: string;
+  sourceId: string;
+  relationshipType: string;
+  relProps: Record<string, unknown>;
+  targetType: string;
+  targetId: string;
+}

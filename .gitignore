@@ -1,5 +1,6 @@
 # Virtual environment
 .venv/
+.venv.bak/
 venv/
 ENV/
 
@@ -10,9 +11,31 @@ ENV/
 # Python bytecode & cache
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
 *$py.class
 *.so
 .Python
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+
+# Frontend local build/install artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Other local/build/cache artifacts
+build/
+cache/
+*.log
+*.tmp
+*.temp
+
+# Python packaging artifacts
+*.egg-info/
 
 # IDE & Editor settings
 .vscode/

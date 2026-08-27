@@ -6,6 +6,7 @@ import type {
   EntityType,
   HealthResponse,
   HighRiskMerchantExposure,
+  NeighborhoodEdge,
   SharedDeviceResponse,
   SharedIPResponse,
   ShortestPathResponse,
@@ -56,4 +57,5 @@ export const api = {
   highRiskMerchants: (merchantId?: string) => get<HighRiskMerchantExposure[]>("/api/v1/investigations/high-risk-merchants", { merchantId }),
   blastRadius: (deviceId: string, maxHops: number) => get<BlastRadiusResponse>("/api/v1/investigations/blast-radius", { deviceId, maxHops }),
   syntheticIdentity: (deviceId: string, ipAddress: string) => get<SyntheticIdentityResponse>("/api/v1/investigations/synthetic-identity", { deviceId, ipAddress }),
+  neighborhood: (entityId: string) => get<NeighborhoodEdge[]>("/api/v1/neighborhood", { entityId }),
 };
