@@ -2,6 +2,37 @@
 
 FinGuard is a graph-driven fraud investigation application that helps reviewers trace suspicious relationships across customers, accounts, devices, IP addresses, and merchants. The system surfaces shared infrastructure, circular transfer loops, shortest transfer paths, blast radius impact, and synthetic identity clusters in a single investigation workspace.
 
+## Demo
+
+The demo walks through the main fraud-investigation workflows,
+including entity search, graph exploration, shared-device analysis,
+and circular-transfer investigation.
+
+🎥 [Watch the FinGuard Demo](https://youtu.be/T2cnpgFpVm4)
+🌐 [Live Demo]
+
+## Screenshots
+
+### Dashboard
+
+![FinGuard Dashboard](docs/screenshots/dashboard.png)
+
+### Search
+
+![Search](docs/screenshots/search.png)
+
+### Shared Device Investigation
+
+![Shared Device](docs/screenshots/shared-device.png)
+
+### Circular Transfer Investigation
+
+![Circular Transfer](docs/screenshots/circular-transfer.png)
+
+### Graph Investigation
+
+![Graph Investigation](docs/screenshots/graph-investigation.png)
+
 ## Problem statement
 
 Modern fraud teams often need to connect fragmented signals across accounts, devices, IP addresses, and transaction history. Manual review is slow and error-prone when the important signal is the relationship network rather than a single record. FinGuard keeps the investigation grounded in a graph database and presents that context in a readable web experience.
@@ -205,9 +236,6 @@ Current backend routes include:
 - `GET /api/v1/investigations/synthetic-identity`
 - `GET /api/v1/neighborhood`
 
-## Demo
-
-🎥 [Watch the FinGuard Demo](https://youtu.be/T2cnpgFpVm4)
 
 ## Investigation workflows
 
