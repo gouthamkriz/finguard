@@ -9,7 +9,8 @@ including entity search, graph exploration, shared-device analysis,
 and circular-transfer investigation.
 
 🎥 [Watch the FinGuard Demo](https://youtu.be/T2cnpgFpVm4)
-🌐 [Live Demo]
+🌐 [Live Demo]  https://finguard-nine.vercel.app/
+Backend API Docs: https://finguard-api-7d3k.onrender.com/docs
 
 ## Screenshots
 
