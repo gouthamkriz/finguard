@@ -205,6 +205,10 @@ Current backend routes include:
 - `GET /api/v1/investigations/synthetic-identity`
 - `GET /api/v1/neighborhood`
 
+## Demo
+
+🎥 [Watch the FinGuard Demo](https://youtu.be/T2cnpgFpVm4)
+
 ## Investigation workflows
 
 A typical workflow is:
